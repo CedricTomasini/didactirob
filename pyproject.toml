@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rob_module"
+version = "0.1.0"
+description = "Didactical python module intended to help student to learn to design algorithms by controlling a virtual robot"
+
+[tool.setuptools]
+py-modules = ["rob_module"]
